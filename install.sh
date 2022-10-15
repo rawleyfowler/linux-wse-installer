@@ -89,7 +89,7 @@ WINEPREFIX=\"\$HOME/.wine_warband\" wine $INSTALL_LOC/WSELoader.exe
 chmod +x wse_warband
 
 echo
-rm -r -- "$INSTALL_LOC"
+rm -r -- "$INSTALL_LOC" || true
 mkdir -p "$INSTALL_LOC"
 cd "$INSTALL_LOC"
 
