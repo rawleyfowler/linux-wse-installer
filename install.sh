@@ -48,7 +48,7 @@ Requirements to run:
 }
 
 PATH_TO_WARBAND="$HOME/.local/share/Steam/steamapps/common/MountBlade Warband"
-INSTALL_LOC="$HOME/Games"
+INSTALL_LOC="$HOME/Games/MountBlade Warband"
 
 while [[ "$#" -gt 0 ]]; do
     case $1 in
@@ -89,9 +89,9 @@ WINEPREFIX=\"\$HOME/.wine_warband\" wine $INSTALL_LOC/WSELoader.exe
 chmod +x wse_warband
 
 echo
-rm -r -- "$INSTALL_LOC" || usage
-mkdir -p "$INSTALL_LOC" || usage
-cd "$INSTALL_LOC" || usage
+rm -r -- "$INSTALL_LOC"
+mkdir -p "$INSTALL_LOC"
+cd "$INSTALL_LOC"
 
 echo "Creating creating a copy of Warband to perform the installation upon."
 cp -r "$PATH_TO_WARBAND"/* .
