@@ -84,7 +84,7 @@ fi
 echo
 echo "Creating custom run script."
 echo "#!/bin/sh
-WINEPREFIX=\"\$HOME/.wine_warband\" wine $INSTALL_LOC/WSELoader.exe
+WINEPREFIX=\"\$HOME/.wine_warband\" wine \"$INSTALL_LOC/WSELoader.exe\"
 " > wse_warband
 chmod +x wse_warband
 
