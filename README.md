@@ -1,5 +1,5 @@
 # Linux WSE Installer
-To many people's suprise, Mount and Blade Warband with [WSE](https://forums.taleworlds.com/index.php?threads/wb-warband-script-enhancer-v4-8-5-for-1-174.324890/) actually runs really well!
+To many people's suprise, Mount and Blade Warband with [WSE](https://forums.taleworlds.com/index.php?threads/wb-warband-script-enhancer-v4-8-5-for-1-174.324890/) on Linux actually runs really well!
 There is very little information out there on how to run it, so I created this script
 to streamline the process for people (and for myself since I distro hop quite often).
 
