@@ -13,7 +13,8 @@ unrar wget wine winetricks
 
 ## How it works
 We make a copy of your clean Mount and Blade Warband install, grab all of the WSE stuff
-we need from the internet, then simply merge the two and generate an exectuable script for you to run.
+we need from the internet, then simply merge the two, make a wineprefix for warband, and then 
+generate an exectuable script for you to run.
 The script generated is named `wse_warband` and can be moved anywhere, the best place for it
 though, is probably somewhere on your `$PATH` but i'll leave that up to you!
 
