@@ -24,10 +24,6 @@
 
 set -e
 
-if [[ "$OSTYPE" != "linux-gnu"* ]]; then
-	echo "$OSTYPE is not supported. Sorry." && exit 2
-fi
-
 function usage() {
 	echo "
 INSTALL WARBAND SCRIPT EXTENDER ON LINUX
