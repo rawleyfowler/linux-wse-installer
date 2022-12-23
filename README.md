@@ -4,6 +4,7 @@ There is very little information out there on how to run it, so I created this s
 to streamline the process for people (and for myself since I distro hop quite often).
 
 **Note**: This uses Wine, unfortunately WSE is compiled for Windows, so we can't natively install it.
+
 **Note 2**: This also works for FreeBSD, but you should source the game from the official M&B Warband website instead of steam, then install via Wine to the prefix.
 
 ## Prerequisites
