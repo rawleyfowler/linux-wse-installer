@@ -119,7 +119,7 @@ ${GREEN}Installation complete!${NC} Happy modding!\n
 \n
 Warband with WSE has been installed to: $INSTALL_LOC\n
 \n
-If you want to add this to your path, copy the 'warband' script at the root of this project\n
+If you want to add this to your path, copy the 'wse_warband' script at the root of this project\n
 to somewhere on your path to make it easily runnable.\n
 \n
 Ex: chmod +x ./wse_warband && sudo cp ./wse_warband /usr/bin/warband\n
