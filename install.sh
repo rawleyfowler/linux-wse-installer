@@ -60,7 +60,7 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 # Location of WSE, we will wget this in a moment
-WSE_DL="https://uc3bd31d1e17c211be84021132ce.dl.dropboxusercontent.com/cd/0/get/COeSuNPgqmCrrG0nbZTJGbtrr_LFkek1A-EtlTU7wcjcwHwP4l_0Ru_H56WmPC8n61V7-kmQwWwoZEX7e6kWO638_Atg8S3B1Dxe1nmQh0dbxgTlIw3OPZTeuo9K_J2332pIhMCpThpPStoMUJBGHYKturnwDz1jXfS4F_E7X_6HZNokbz15S1Q3OSIJJjna7T4/file?_download_id=112312138116793862100185768518991759948644830848378993135077522405&_notify_domain=www.dropbox.com&dl=1"
+WSE_DL="https://www.dropbox.com/scl/fi/j31x2uve0cjora2xtt3km/WSE-v4.9.5.rar?rlkey=orhskyf7ye997kuf0z9ja6tcc&dl=1"
 WB_EXE_DL="https://www.dropbox.com/s/zfeoi54q1kr3xlk/mb_warband_1174.exe.rar"
 
 [ ! -x "$(command -v wget)" ] && echo "You are missing wget, please install it." && exit 1
